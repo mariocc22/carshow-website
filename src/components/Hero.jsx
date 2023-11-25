@@ -16,7 +16,7 @@ import Image from "next/image";
 import { motion, easeInOut } from "framer-motion";
 
 // variants
-import { fadeIn } from "../../../variants";
+import { fadeIn } from "../../variants";
 
 const Hero = () => {
   const { searchActive } = useContext(SearchContext);
